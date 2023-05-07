@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search-results.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+</head>
+
+<body>
+    <!-- navbar  -->
+<div class="navbar">
+
+    <div class="nav-style"> 
+
+        <div>
+          <a href="/index.html"><img id="my-logo-img-id" class="logo" src="/images/ankush_google.jpeg" alt="logo"></a>  
+        </div>
+
+         <div> 
+   <!-- search box starts -->
+        <div id="searchBox" class="search_box">
+            <img id="arrowID" class="arrow arrow-back-display" src="https://img.icons8.com/small/16/undefined/reply-arrow.png"/>
+           <input id="inputID2" class="before-click-input " onkeyup="seachefilter()" type="text"> 
+            <!-- links-show -->
+           <div  id="border-line" class="border-line display-line"></div>
+           <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <span id="span-cross" class=" cross-display "> <i id="crossBtn" class="fa-solid fa-xmark "></i> </span> 
+           <img id="voiceID"  class="voice-icon " src="/images/voice-icon.jpeg" alt="voice">
+           </div>
+   
+           <div id="box-link" class="links links-show-box link-display mobile-responsive-linkbox-alignment">
+               <ul>
+                 
+                   <div type="button" id="div-1" class="single-link-div">
+                       <img class="reload-img" src="/images/google-reload.png" alt="">
+                       <li class="link-text"><a href="/search-results.html">All</a></li> 
+                       <!-- <button id="remove-btn-1" class="remove-btn-style">
+                           Remove
+                       </button> -->
+                   </div>
+              
+   
+                   <div id="div-2" class="single-link-div">
+                       <img class="reload-img" src="/images/google-reload.png" alt="">
+                       <li class="link-text"><a href="/search-results.html">Work</a></li> 
+                       <!-- <button id="remove-btn-2" class="remove-btn-style">
+                           Remove
+                       </button> -->
+                   </div>
+   
+                   <div id="div-3" class="single-link-div">
+                       <img class="reload-img" src="/images/google-reload.png" alt="">
+                       <li class="link-text"><a href="/search-results.html">Skill</a></li> 
+                       <!-- <button id="remove-btn-3" class="remove-btn-style">
+                           Remove
+                       </button> -->
+                   </div>
+
+                   <div id="div-5" class="single-link-div">
+                    <img class="reload-img" src="/images/google-reload.png" alt="">
+                    <li class="link-text"><a href="/search-results.html">Experience</a></li> 
+                    <!-- <button id="remove-btn-5" class="remove-btn-style">
+                        Remove
+                    </button> -->
+                </div>
+   
+                   <div id="div-4" class="single-link-div">
+                       <img class="reload-img" src="/images/google-reload.png" alt="">
+                       <li class="link-text"><a href="/search-results.html">About</a></li> 
+                       <!-- <button id="remove-btn-4" class="remove-btn-style">
+                           Remove
+                       </button> -->
+                   </div>
+   
+                  
+   
+                   <div id="div-6" class="single-link-div">
+                       <img class="reload-img" src="/images/google-reload.png" alt="">
+                       <li class="link-text"><a href="/search-results.html">Social</a></li> 
+                       <!-- <button id="remove-btn-6" class="remove-btn-style">
+                           Remove
+                       </button> -->
+                   </div>
+                  
+               </ul>
+           </div>
+    <!-- search box ends  -->
+          </div>
+    </div>
+
+    <div class="nav-style menuAndUser">
+          <div class="menu-img">
+            <button id="btn-menu-item">  <img id="menu-img-id" class="menu-img-style" src="/images/menu2.png" alt="menu"> </button>  
+           </div>
+   
+   <!-- added user logo-->
+           <div id="user-profile-div" class="user-logo">
+           <button  id="user-profile-btn"> <img id="user-profile-img" class="user-img-style" src="/images/user-logo.jpeg" alt="menu">
+            </button>    
+           </div>
+           <!-- end of logo  -->
+       </div>
+
+    </div>
+   
+</div>
+
+  <!-- menu items div start -->
+  <div id="menu-item-display"  class="menu-items  menu-item-display-hide">
+
+    <a class="item-1-hover" href="index.html"><div class="inner-menu-div">
+        <img class="size-img" src="/images/a-img.png" alt="A">
+        <p>Search</p>
+    </div></a>
+
+   <button id="menu-item-about-btn" class="item-1-hover" > <div class="inner-menu-div">
+        <img class="size-img-about" src="/images/about.png" alt="about"    >
+        <p>About</p>
+    </div></button>
+
+  <button id="menu-item-work-btn" class="item-1-hover" >  <div class="inner-menu-div">
+        <img class="size-img" src="https://img.icons8.com/color/48/undefined/hard-working.png" alt="">
+        <p>Work</p>
+    </div></button>
+
+    <button class="item-1-hover" id="menu-item-skill-btn" ><div class="inner-menu-div">
+        <img class="size-img" src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/000000/external-skill-leader-and-teamwork-xnimrodx-lineal-gradient-xnimrodx.png" alt="">
+        <p>Skill</p>
+    </div></button>
+
+   <a class="item-1-hover" href="mailto:ankushrawat037@gmail.com" style=" color: black; text-decoration: none;"><div class="inner-menu-div">
+        <img class="size-img" src="/images/g-img.png" alt="">
+        <p>Gmail</p>
+    </div></a> 
+
+   <a class="item-1-hover" href="" style=" color: black; text-decoration: none;"><div class="inner-menu-div">
+        <img class="size-img" src="/images/github.png" alt="">
+        <p>Github</p>
+    </div></a> 
+
+    <a class="item-1-hover" href="https://www.linkedin.com/in/ankushrawat822/" style=" color: black; text-decoration: none;">  <div class="inner-menu-div">
+        <img class="size-img" src="https://img.icons8.com/color/48/undefined/linkedin.png" alt="">
+        <p>Linkdin</p>
+    </div></a>
+
+    <button id="menu-item-social-btn" class="item-1-hover" ><div class="inner-menu-div">
+        <img class="size-img" src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/undefined/external-social-activism-flaticons-flat-flat-icons-2.png" alt="">
+        <p>Social</p>
+    </div></button>
+</div>
+<!-- menu items div ends -->
+
+ <!-- user profile on click div starts -->
+ <div id="user-profile-id" class="user-profile  user-profile-display">
+    <div>
+     <img class="user-profile-img" src="images/my-linkdin-image.jpeg" alt="user">
+    </div>
+       
+    <h3 style="color: rgba(70, 68, 68, 0.806);">Ankush Rawat</h3>
+    <p style="color: rgba(128, 128, 128, 0.905);">ankushrawat037@gmail.com</p>
+        
+   <button id="user-profile-social-btn" style="color: rgba(0, 0, 0, 0.676);" class="contact-info-user" href="pages/contact.html"> View contact info</button>
+    <br>
+    
+    <button id="user-profile-my-about-btn" class="user-profile-about-btn"  style="text-decoration: none;" href="pages/about.html"><div class="user-inner-div-about-me">
+     <i style="margin-left:19px ; font-size: 23px; color: rgb(94, 90, 90);" class="fa-solid fa-circle-user "></i>
+       <span style="color: rgb(82, 81, 81)">
+         More about me
+       </span>
+    </div></button>
+    <br>
+    
+    <a class="user-profile-github-link" style="padding: 13px 27px;
+               border: 1px solid rgb(214, 211, 211); 
+               text-decoration: none;
+               font-size: 17px;
+               color: rgba(65, 58, 58, 0.813);
+               border-radius: 8px;
+    " href="">GitHub</a>
+    <br>
+   
+    <hr style="height: 1px;
+        width: 100%;
+        background-color: rgba(214, 211, 211, 0.718);
+        border: none;
+        margin-bottom: 9px;
+        ">
+
+          <!-- view code button disabled  -->
+    
+    <span style="color: rgba(21, 21, 21, 0.748);
+                 font-size:16px" > <a style="text-decoration: none; color: rgba(21, 21, 21, 0.748);" href=""></a></span>
+   </div>
+    <!-- user profile on click div ends -->
+      
+<!-- suggestiong pages all project writting blog  -->
+<div class="suggestions">
+    <ul>
+        <li> <button class="suggest-btn-all"><i id="allIconId"  class="fa-solid fa-magnifying-glass "></i>   All</button>
+            
+            </li>
+
+        <li><button id="suggest-btn-project"><i id="projectIconId" class="fa-solid fa-briefcase "></i>  Project</button></li>
+
+        <li> <button id="suggest-btn-about"><i id="aboutIconId" class="fa-solid fa-images " ></i>  About </button></li>
+
+       
+
+        <li><button id="suggest-btn-social"><i id="socialIconId" class="fa-solid fa-user-plus "></i>  Social</button></li>
+    </ul>
+</div> 
+<!-- end of suggestions  -->
+<br>
+<div class="hr-line">
+ 
+</div>
+
+<!-- main div starts -->
+
+ 
+      <!--long empty div on left side -->
+     <div  class="main-div">
+        <div class="empty-div-left">
+        </div>
+       
+        <div class="outterContainer" >
+
+      
+             <div style="padding-top: 10px;
+                         padding-bottom: 8px;
+                       font-size: 15px;
+                       margin-left: 5px;" id="result-details">
+                 
+             </div>
+             <div class="container">
+          
+            <!-- <br>
+            <p id="content-link">http://google.com</p>
+            <h3 id="content-title" class="link-title">Google pvt ltd</h3>
+            <p id="content-discription">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora iusto assumenda autem ullam illo aut. Ex praesentium esse dolorum iure quasi cum!lorem1fa-stack-2x Lorem, ipsum dolor sit amet consectetur adipisicing elit. E.</p>
+            <br> -->
+        </div>
+
+
+    </div>
+     </div>
+
+
+
+    <script src="search-results.js"></script>
+</body>
+
+</html>
