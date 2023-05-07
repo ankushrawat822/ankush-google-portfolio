@@ -51,6 +51,13 @@ const content = [
 
   {
     category: "work",
+    link: "https://incrediblegraphixstudio.netlify.app/",
+    name: "Incredible Graphix Studio",
+    excerpt: `I worked for Incredible Graphix Studio as a freelance developer, where I developed a static website for their startup.`
+  },
+
+  {
+    category: "work",
     optional: "all",
     link: "https://3d-text-ankush.netlify.app",
     name: "3-D Text ",
