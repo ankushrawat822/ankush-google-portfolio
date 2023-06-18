@@ -4,7 +4,7 @@ const content = [
     category: "about",
     link: `${window.location.origin}#me`,
     name: "Me, Myself and I",
-    excerpt: `I am 19 year old, web developer located in Indore, India. 
+    excerpt: `I am 20 year old, web developer located in Indore, India. 
     I have a passion for creating dynamic, responsive, adaptable websites.
     Problem solver, high-attention to detail, and creative person. I strive for 
     clarity, simplicity and creativity in my work`
@@ -20,10 +20,33 @@ const content = [
 
   {
     category: "work",
+    link: "https://agile-global.vercel.app/",
+    name: "Agile Global ",
+    excerpt: `When I was working as fron-end developer intern at agumentik, I Developed front-end of Official website of Agile Globle using React JS and Tailwind CSS`
+  },
+
+  {
+    category: "work",
     optional: "all",
     link: "https://anku5h-3js.netlify.app/",
     name: " Another Cool Portfolio ",
     excerpt: `Created using THREE js library for rendering and animating 3D models on a simple portfolio website.`
+  },
+
+  {
+    category: "work",
+    optional: "all",
+    link: "https://3d-text-ankush.netlify.app",
+    name: "3-D Text ",
+    excerpt: `An Amazing personal site created using three js library.`
+  },
+
+  {
+    category: "work",
+    optional: "all",
+    link: "https://spiderman-art-by-ankush.netlify.app/",
+    name: "Spider-Man website ",
+    excerpt: `A unique website created using THREE js library for rendering Geometries and meshes.`
   },
 
   {
@@ -35,12 +58,7 @@ const content = [
     HTML, CSS and JavaScript`
   },
 
-  {
-    category: "work",
-    link: "https://agile-global.vercel.app/",
-    name: "Agile Global ",
-    excerpt: `When I was working as fron-end developer intern at agumentik, I Developed front-end of Official website of Agile Globle using React JS and Tailwind CSS`
-  },
+ 
 
   {
     category: "work",
@@ -56,13 +74,7 @@ const content = [
     excerpt: `I worked for Incredible Graphix Studio as a freelance developer, where I developed a static website for their startup.`
   },
 
-  {
-    category: "work",
-    optional: "all",
-    link: "https://3d-text-ankush.netlify.app",
-    name: "3-D Text ",
-    excerpt: `An Amazing personal site created using three js library.`
-  },
+  
 
   {
     category: "work",
@@ -87,6 +99,15 @@ const content = [
     excerpt: `When I was working as fron-end developer intern at agumentik, I Developed front-end of Official website of Agile Globle using React JS and Tailwind CSS`
   },
  
+ 
+
+  {
+    category: "experience",
+    link: "https://gol-travel-bv26.vercel.app/",
+    name: "Gol Travel",
+    excerpt: `When I was working as fron-end developer intern at agumentik, I Developed front-end of a traveling website using React JS and Tailwind CSS`
+  },
+
   {
     category: "experience",
     link: "https://leciendigitals-test.netlify.app/",
@@ -96,11 +117,10 @@ const content = [
 
   {
     category: "experience",
-    link: "https://gol-travel-bv26.vercel.app/",
-    name: "Gol Travel",
-    excerpt: `When I was working as fron-end developer intern at agumentik, I Developed front-end of a traveling website using React JS and Tailwind CSS`
+    link: "https://incredible-graphic-studio.vercel.app/",
+    name: "Incredible Graphic Studio",
+    excerpt: `I worked for Incredible Graphix Studio as a freelance developer, where I developed a static website for their startup.`
   },
-
   {
     category: "social",
     optional: "all",
@@ -129,15 +149,22 @@ const content = [
     category: "skill",
     optional: "all",
     link: `${window.location.origin}#skills`,
-    name: "Fron-End Skills",
+    name: "Front-End Skills",
     excerpt: `I like to code things from scratch, and enjoy bringing ideas to life in the browser. Languages I can speak are HTML , CSS , JavaScript.`,
+  },
+  {
+    category: "skill",
+    optional: "all",
+    link: `${window.location.origin}#skills`,
+    name: "Back-End Skills",
+    excerpt: `I am focusing on learning Backend as well in node and express JS.`,
   },
   {
     optional: "all",
     category: "skill",
     link: `${window.location.origin}#skills`,
     name: "Frameworks and Dev Tools",
-    excerpt: `I have experience with a variety of development tools and frameworks, including React, ThreeJS, Bootstrap, Tailwind, Figma, Material UI , Github , canva.
+    excerpt: `I have experience with a variety of development tools and frameworks, including React, ThreeJS, Bootstrap, Tailwind, Figma, Material UI , Github , Canva , Postman.
     `,
   },
 
