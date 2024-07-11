@@ -4,7 +4,7 @@ const content = [
     category: "about",
     link: `${window.location.origin}#me`,
     name: "Me, Myself and I",
-    excerpt: `I am 20 year old, web developer located in Indore, India. 
+    excerpt: `I am 21 year old, web developer located in Indore, India. 
     I have a passion for creating dynamic, responsive, adaptable websites.
     Problem solver, high-attention to detail, and creative person. I strive for 
     clarity, simplicity and creativity in my work`
@@ -15,7 +15,41 @@ const content = [
     optional: "all",
     link: `${window.location.origin}#academic`,
     name: "An Overview of my Education",
-    excerpt: `I am currently a student in Computer Science Engineering (Btech) from College Medicaps, Indore.I had finished my secondary high school studies at St.Norbert School.`
+    excerpt: `I am currently a student of Computer Science Engineering (Btech) from College Medicaps, Indore.I had finished my secondary high school studies from St.Norbert School.`
+  },
+
+  {
+
+    category: "about",
+    optional: "all",
+    link: `${window.location.origin}#academic`,
+    name: "My Achievments",
+    excerpt: `I am winner of the BUILD Program 2023 organized by IIT Hyderabad Incubation Centre. I achieved 7th Rank in final round of CodeSpire Hackathon. I am winner of clone-it competion 2024 held at Medicaps University.`
+  },
+
+  {
+    category: "work",
+    optional: "all",
+    link: "https://intellicrowd-ten.vercel.app/",
+    name: " IntelliCrowd (currently working on it)",
+    excerpt: `A crowdsourcing platform where people can help improve AI systems by providing them with good-quality data annotations. The platform focuses on data like text, photos, and videos, which AI models need. Thousands of individuals can join, earn money by completing microtasks on their devices, and contribute to advancing AI technology.`
+  },
+
+  {
+    category: "work",
+    optional: "all",
+    link: "https://sih-fluent-speech.vercel.app/",
+    name: " Fluent Speech ",
+    excerpt: `A website to improve communication skills and reduce stammering. The website contains various unique exercise like Articulation, Breathing, Tongue Twisters etc to improve communication skills.`
+  },
+
+  {
+    category: "work",
+    optional: "all",
+    link: "https://maabaglamukhiresort.netlify.app/",
+    name: "Maa Bagla Mukhi Resort",
+
+    excerpt: `A website for hotel booking and reservation. The website is developed using MERN stack.`
   },
 
   {
